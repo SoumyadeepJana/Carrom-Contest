@@ -1,3 +1,6 @@
+//c++ program using linked lists and files.
+//AUTHOR: Soumyadeep Jana
+
 #include<iostream.h>
 #include<conio.h>
 #include<stdio.h>
