@@ -12,7 +12,7 @@ struct names
 };
 names *head=NULL;
 
-
+//To enter the names of the participants.
 void entry()
 {
     names *node=new names;
@@ -38,6 +38,7 @@ void entry()
     }
 }
 
+//To arrange the namrs based on their lengths.
 void shuffle()
 {
    int len=0;
@@ -69,6 +70,8 @@ void shuffle()
    }
 }
 
+
+//To display the teams after sorting
 void view_team()
 {
    clrscr();
@@ -96,6 +99,8 @@ void view_team()
       cout<<"More participant required"<<endl;
 }
 
+
+//To view the list of participants.
 void view_participant()
 {
    clrscr();
@@ -114,6 +119,8 @@ void view_participant()
    }
 }
 
+
+//To delete a particular participant.
 Delete()
 {
    char s[40];
@@ -162,7 +169,7 @@ void Delete_all()
 
 
 
-
+//To write the sorted list of participants in a file during termination of the program.
 void end()
 {
 
@@ -179,6 +186,7 @@ void end()
 }
 
 
+//To fetch the list of sorted participants from the file and store them in a list.
 void start()
 {
    ifstream fin;
